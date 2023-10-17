@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 90%;
+}
+.box{
+    border-style: solid;
+    border-radius: 10px;
+    width: 290px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40%;
+}
+#cancelid{
+    margin-left: 180px;
+    border-radius: calc(15px);
+    border-width: 0px;
+    font-size: 14px;
+}
+
+#cancelid:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 30px;
+}
+
+marquee{
+    padding-top: 80px;
+    text-shadow: 2px 2px 8px rgb(248, 79, 108);
+    font-family: italic;
+    
+}
+
+#res{
+    margin-top: auto;
+    padding: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 200px;
+    font-size: 15px;
+}
+
+.ab{
+    padding: 12px;
+    border-radius: calc(50px);
+    border-width: 0px;
+    width: 60px;
+}
+
+.ab:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#ab19:hover{
+    background-color:green;
+    font-weight: bold;
+}
+
+#ab10:hover{
+    color: red;
+}
+
+#ab11, #ab12, #ab13, #ab14, #ab15, #ab16{
+    color: green;
+    font-weight: bold;
+}
+
+#ab11:hover, #ab12:hover, #ab13:hover, #ab14:hover, #ab15:hover, #ab16:hover{
+    color:white;
+    font-weight: bold;
+}
